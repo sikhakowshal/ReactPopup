@@ -1,0 +1,17 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 575px) {
+  .about-lg-img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .about-sm-img {
+    display: none;
+  }
+}
